@@ -90,7 +90,7 @@ flowchart TB
         Maps["🗺️ Bản Đồ & Trạm Dừng Nghỉ<br>• Điều hướng an toàn tới trạm dừng cao tốc"]
     end
 
-    subgraph ROADMAP ["💡 TÍNH NĂNG MỞ RỘNG (PHASE 2 ROADMAP)"]
+    subgraph ROADMAP ["💡 TÍNH NĂNG MỞ RỘNG"]
         Dispatch["🧭 Smart Fleet Dispatch<br>• Tối ưu điều phối xe rảnh theo nhu cầu"]
     end
 
