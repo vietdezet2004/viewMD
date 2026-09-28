@@ -56,7 +56,7 @@ flowchart TB
     end
 
     %% FUTURE EXTENSION (NON-CORE)
-    subgraph FUTURE_EXTENSION ["💡 TÍNH NĂNG MỞ RỘNG (PHASE 2 ROADMAP)"]
+    subgraph FUTURE_EXTENSION ["💡 TÍNH NĂNG MỞ RỘNG "]
         DispatchEngine["🧭 <i>[Tương lai] Smart Fleet Dispatch</i><br>• Tối ưu điều phối xe rảnh theo nhu cầu & doanh thu"]
     end
 
