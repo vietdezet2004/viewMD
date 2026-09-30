@@ -39,7 +39,7 @@ Mỗi bảng trong cơ sở dữ liệu DriverGuard được sinh ra để giả
 ```
 
 1. **Bảng `account` (Tài khoản người dùng):**
-   - *Vì sao cần?* Hệ thống phục vụ 4 nhóm đối tượng: Quản trị viên (`ADMIN`), Cán bộ an toàn (`SAFETY_MANAGER`), Tài xế buồng lái (`DRIVER`), và Nhân viên điều phối (`DISPATCHER`).
+   - *Vì sao cần?* Hệ thống phục vụ 3 nhóm đối tượng: Quản trị viên, Cán bộ an toàn (`ADMIN/SAFETY_MANAGER`), Tài xế buồng lái (`DRIVER`), và Nhân viên điều phối (`DISPATCHER`).
    - *Thiết kế:* Tách biệt bảng `account` với bảng thông tin cá nhân (`staff`) nhằm chuẩn hóa bảo mật theo chuẩn Spring Security 6 / JWT, cho phép khóa/mở tài khoản độc lập mà không ảnh hưởng tới dữ liệu hồ sơ.
 
 2. **Bảng `staff` (Hồ sơ nhân sự):**
